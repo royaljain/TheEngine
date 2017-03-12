@@ -15,7 +15,7 @@ namespace Random
 	{
 		public:
 	//	void init(const UniformDistributionInputs& inp);
-		double getNumber()  = 0;
+		virtual double getNumber();
 	};
 
 	class MersenneTwisterInputs: public UniformDistributionInputs
